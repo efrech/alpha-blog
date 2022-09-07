@@ -72,4 +72,5 @@ end
 
 group :production do
   gem 'pg', '~> 1.4', '>= 1.4.3'
+  gem 'rails_12factor'
 end
