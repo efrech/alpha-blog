@@ -1,0 +1,67 @@
+@import 'bootstrap';
+
+.navbar {
+    background-color: rgb(132, 92, 142) !important;
+    margin-top: 0px;
+}
+
+.nav-link {
+    color: rgb(216, 201, 32) !important;
+}
+
+.nav-link:hover {
+    opacity: 0.75;
+}
+
+#logo {
+    float: left;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+
+.carousel-item {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#home-container {
+    margin-top: 25px;
+}
+
+#slider1 {
+    background-image: asset-url('slider.jpg');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+#slider2 {
+    background-image: asset-url('slider2.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+    flex: 1 0 auto;
+  }
+
+#sticky-footer {
+    flex-shrink: none;
+    background-color: rgb(138, 115, 138) !important;
+    color: rgb(255, 255, 255) !important;
+  }
